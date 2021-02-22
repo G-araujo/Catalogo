@@ -1,0 +1,33 @@
+<head>
+    <link rel="stylesheet" href="../app.css">
+</head>
+
+
+<div ng-controller="View1Ctrl">
+    <div class="container">
+            <div class="box" ng-repeat="teste in testes">
+                <a class="box" ng-mouseover="variavel = true" ng-mouseleave="variavel = false">
+                    <img src="{{teste.imagem}}" width="200" height="300">
+                </a>
+                <div ng-show="variavel">
+                <h3 class="box">
+                    {{teste.nome}}
+                </h3>
+                <h3 class="box">
+                    {{teste.subtitulo}}
+                </h3>
+                <h5 class="box">
+                    {{teste.resumo}}
+                </h5>
+                <h4 class="box">
+                   ISBN {{teste.isbn}}
+                </h4>
+                <h3 class="box">
+                    R$ {{teste.preco}}
+                </h3>
+                </div>
+            </div>
+    </div>
+</div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="view1.js"></script>
