@@ -13,3 +13,5 @@ Um projeto Simples feito com NodeJs, Express, Knex, Sqlite e AngularJs. Nesse pr
 4- Suba o servidor do Back-End utilizando o comando npm start em um terminal aberto dentro da pasta /catalogo.
 
 5- Suba o servidor de aplicação utilizando o comando npm start em um terminal aberto dentro da pasta /angular.
+
+OBS: O projeto completo de acordo com o que foi pedido, porem ainda incluirei animações para mostrar as informações dos livros assim como inclusão e exclusão de outros livros. O código para execução dessas funcionalidades já se encontra parcialmente na aplicação.
